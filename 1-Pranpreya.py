@@ -28,7 +28,7 @@ def insertion_sort(arr):
 def merge_sort(arr_merge):
     if len(arr_merge) > 1:
 
-        q = math.floor(len(arr_merge) / 2)  # ceiling function (floor or ceil is OK)
+        q = math.floor(len(arr_merge) / 2)  # floor function (floor or ceil is OK)
         # print('q: ', q)
 
         left_arr = arr_merge[:q]
